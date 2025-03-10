@@ -1,5 +1,26 @@
 # @pnpm/package-store
 
+## 1000.0.8
+
+### Patch Changes
+
+- @pnpm/worker@1000.0.8
+- @pnpm/package-requester@1001.0.4
+
+## 1000.0.7
+
+### Patch Changes
+
+- Updated dependencies [a5e4965]
+  - @pnpm/types@1000.2.1
+  - @pnpm/fetcher-base@1000.0.5
+  - @pnpm/package-requester@1001.0.3
+  - @pnpm/resolver-base@1000.1.4
+  - @pnpm/store.cafs@1000.0.6
+  - @pnpm/store-controller-types@1001.0.3
+  - @pnpm/worker@1000.0.7
+  - @pnpm/create-cafs-store@1000.0.7
+
 ## 1000.0.6
 
 ### Patch Changes

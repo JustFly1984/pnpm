@@ -1,5 +1,28 @@
 # @pnpm/npm-resolver
 
+## 1000.1.7
+
+### Patch Changes
+
+- @pnpm/crypto.hash@1000.1.1
+
+## 1000.1.6
+
+### Patch Changes
+
+- 8371664: When a package version cannot be found in the package metadata, print the registry from which the package was fetched.
+
+## 1000.1.5
+
+### Patch Changes
+
+- Updated dependencies [daf47e9]
+- Updated dependencies [a5e4965]
+  - @pnpm/crypto.hash@1000.1.0
+  - @pnpm/types@1000.2.1
+  - @pnpm/core-loggers@1000.1.4
+  - @pnpm/resolver-base@1000.1.4
+
 ## 1000.1.4
 
 ### Patch Changes
