@@ -1,5 +1,40 @@
 # @pnpm/plugin-commands-init
 
+## 1000.1.7
+
+### Patch Changes
+
+- Updated dependencies [6e4459c]
+  - @pnpm/config@1002.5.3
+  - @pnpm/cli-utils@1000.0.16
+
+## 1000.1.6
+
+### Patch Changes
+
+- @pnpm/cli-utils@1000.0.15
+- @pnpm/config@1002.5.2
+
+## 1000.1.5
+
+### Patch Changes
+
+- Updated dependencies [c3aa4d8]
+  - @pnpm/config@1002.5.1
+  - @pnpm/cli-utils@1000.0.14
+
+## 1000.1.4
+
+### Patch Changes
+
+- Updated dependencies [a5e4965]
+- Updated dependencies [d965748]
+  - @pnpm/types@1000.2.1
+  - @pnpm/config@1002.5.0
+  - @pnpm/cli-meta@1000.0.4
+  - @pnpm/cli-utils@1000.0.13
+  - @pnpm/write-project-manifest@1000.0.4
+
 ## 1000.1.3
 
 ### Patch Changes

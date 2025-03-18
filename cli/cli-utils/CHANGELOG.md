@@ -1,5 +1,44 @@
 # @pnpm/cli-utils
 
+## 1000.0.16
+
+### Patch Changes
+
+- Updated dependencies [6e4459c]
+  - @pnpm/config@1002.5.3
+  - @pnpm/default-reporter@1001.3.7
+
+## 1000.0.15
+
+### Patch Changes
+
+- Updated dependencies [f8c8e3f]
+  - @pnpm/default-reporter@1001.3.6
+  - @pnpm/config@1002.5.2
+
+## 1000.0.14
+
+### Patch Changes
+
+- Updated dependencies [6f56790]
+- Updated dependencies [c3aa4d8]
+  - @pnpm/default-reporter@1001.3.5
+  - @pnpm/config@1002.5.1
+
+## 1000.0.13
+
+### Patch Changes
+
+- Updated dependencies [a5e4965]
+- Updated dependencies [d965748]
+  - @pnpm/types@1000.2.1
+  - @pnpm/config@1002.5.0
+  - @pnpm/cli-meta@1000.0.4
+  - @pnpm/default-reporter@1001.3.4
+  - @pnpm/package-is-installable@1000.0.6
+  - @pnpm/manifest-utils@1000.0.6
+  - @pnpm/read-project-manifest@1000.0.7
+
 ## 1000.0.12
 
 ### Patch Changes

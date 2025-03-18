@@ -1,5 +1,39 @@
 # @pnpm/default-reporter
 
+## 1001.3.7
+
+### Patch Changes
+
+- Updated dependencies [6e4459c]
+  - @pnpm/config@1002.5.3
+
+## 1001.3.6
+
+### Patch Changes
+
+- f8c8e3f: Don't show info output when `--loglevel=error` is used.
+  - @pnpm/config@1002.5.2
+
+## 1001.3.5
+
+### Patch Changes
+
+- 6f56790: When `--loglevel` is set to `error`, don't show installation summary, execution time, and big tarball download progress.
+- Updated dependencies [c3aa4d8]
+  - @pnpm/config@1002.5.1
+
+## 1001.3.4
+
+### Patch Changes
+
+- Updated dependencies [a5e4965]
+- Updated dependencies [d965748]
+  - @pnpm/types@1000.2.1
+  - @pnpm/config@1002.5.0
+  - @pnpm/cli-meta@1000.0.4
+  - @pnpm/core-loggers@1000.1.4
+  - @pnpm/render-peer-issues@1000.0.6
+
 ## 1001.3.3
 
 ### Patch Changes

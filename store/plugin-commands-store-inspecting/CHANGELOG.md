@@ -1,5 +1,46 @@
 # @pnpm/plugin-commands-store-inspecting
 
+## 1000.0.16
+
+### Patch Changes
+
+- @pnpm/client@1000.0.11
+
+## 1000.0.15
+
+### Patch Changes
+
+- Updated dependencies [6e4459c]
+  - @pnpm/config@1002.5.3
+
+## 1000.0.14
+
+### Patch Changes
+
+- @pnpm/config@1002.5.2
+- @pnpm/client@1000.0.10
+
+## 1000.0.13
+
+### Patch Changes
+
+- Updated dependencies [c3aa4d8]
+  - @pnpm/config@1002.5.1
+  - @pnpm/client@1000.0.9
+
+## 1000.0.12
+
+### Patch Changes
+
+- Updated dependencies [a5e4965]
+- Updated dependencies [d965748]
+  - @pnpm/types@1000.2.1
+  - @pnpm/config@1002.5.0
+  - @pnpm/pick-registry-for-package@1000.0.4
+  - @pnpm/lockfile.types@1001.0.4
+  - @pnpm/client@1000.0.8
+  - @pnpm/store.cafs@1000.0.6
+
 ## 1000.0.11
 
 ### Patch Changes

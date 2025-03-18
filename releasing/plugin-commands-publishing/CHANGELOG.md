@@ -1,5 +1,61 @@
 # @pnpm/plugin-commands-publishing
 
+## 1000.1.15
+
+### Patch Changes
+
+- Updated dependencies [aec8c50]
+  - @pnpm/plugin-commands-env@1000.0.17
+  - @pnpm/client@1000.0.11
+
+## 1000.1.14
+
+### Patch Changes
+
+- Updated dependencies [6e4459c]
+  - @pnpm/config@1002.5.3
+  - @pnpm/cli-utils@1000.0.16
+  - @pnpm/plugin-commands-env@1000.0.16
+
+## 1000.1.13
+
+### Patch Changes
+
+- @pnpm/cli-utils@1000.0.15
+- @pnpm/plugin-commands-env@1000.0.15
+- @pnpm/config@1002.5.2
+- @pnpm/client@1000.0.10
+
+## 1000.1.12
+
+### Patch Changes
+
+- Updated dependencies [c3aa4d8]
+  - @pnpm/config@1002.5.1
+  - @pnpm/cli-utils@1000.0.14
+  - @pnpm/plugin-commands-env@1000.0.14
+  - @pnpm/client@1000.0.9
+
+## 1000.1.11
+
+### Patch Changes
+
+- b8b0c68: `fast-glob` replace with `tinyglobby` to reduce the size of the pnpm CLI dependencies [#9169](https://github.com/pnpm/pnpm/pull/9169).
+- Updated dependencies [b8b0c68]
+- Updated dependencies [a5e4965]
+- Updated dependencies [d965748]
+  - @pnpm/package-bins@1000.0.4
+  - @pnpm/types@1000.2.1
+  - @pnpm/config@1002.5.0
+  - @pnpm/cli-utils@1000.0.13
+  - @pnpm/pick-registry-for-package@1000.0.4
+  - @pnpm/plugin-commands-env@1000.0.13
+  - @pnpm/lifecycle@1001.0.7
+  - @pnpm/client@1000.0.8
+  - @pnpm/exportable-manifest@1000.0.8
+  - @pnpm/resolver-base@1000.1.4
+  - @pnpm/sort-packages@1000.0.4
+
 ## 1000.1.10
 
 ### Patch Changes

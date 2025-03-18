@@ -1,5 +1,23 @@
 # @pnpm/list
 
+## 1000.0.11
+
+### Patch Changes
+
+- Updated dependencies [58d8597]
+  - @pnpm/crypto.polyfill@1000.1.0
+  - @pnpm/reviewing.dependencies-hierarchy@1001.0.8
+
+## 1000.0.10
+
+### Patch Changes
+
+- Updated dependencies [a5e4965]
+  - @pnpm/types@1000.2.1
+  - @pnpm/read-package-json@1000.0.5
+  - @pnpm/read-project-manifest@1000.0.7
+  - @pnpm/reviewing.dependencies-hierarchy@1001.0.7
+
 ## 1000.0.9
 
 ### Patch Changes

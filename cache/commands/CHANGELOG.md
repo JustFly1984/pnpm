@@ -1,5 +1,41 @@
 # @pnpm/cache.commands
 
+## 1000.0.16
+
+### Patch Changes
+
+- Updated dependencies [6e4459c]
+  - @pnpm/config@1002.5.3
+  - @pnpm/cache.api@1000.0.15
+  - @pnpm/cli-utils@1000.0.16
+
+## 1000.0.15
+
+### Patch Changes
+
+- @pnpm/cli-utils@1000.0.15
+- @pnpm/config@1002.5.2
+- @pnpm/cache.api@1000.0.14
+
+## 1000.0.14
+
+### Patch Changes
+
+- Updated dependencies [c3aa4d8]
+  - @pnpm/config@1002.5.1
+  - @pnpm/cli-utils@1000.0.14
+  - @pnpm/cache.api@1000.0.13
+
+## 1000.0.13
+
+### Patch Changes
+
+- Updated dependencies [b8b0c68]
+- Updated dependencies [d965748]
+  - @pnpm/cache.api@1000.0.12
+  - @pnpm/config@1002.5.0
+  - @pnpm/cli-utils@1000.0.13
+
 ## 1000.0.12
 
 ### Patch Changes

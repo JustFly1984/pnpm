@@ -1,3 +1,19 @@
+gitChecks: false
+hoistPattern:
+- jest-runner
+sharedWorkspaceLockfile: true
+publishBranch: main
+pnpmfile: .pnpmfile.cjs
+nodeVersion: 18.18.0
+engineStrict: true
+savePrefix: ''
+# dedupeDirectDeps: true # Otherwise exporting the manifest fails sometimes
+patchesDir: __patches__
+resolutionMode: lowest-direct
+enablePrePostScripts: false
+managePackageManagerVersions: true
+verifyDepsBeforeRun: install
+optimisticRepeatInstall: true
 packages:
   - .meta-updater
   - __typecheck__
@@ -42,25 +58,25 @@ packages:
   - "!resolving/local-resolver/example-package/**"
 catalog:
   "@gwhitney/detect-indent": 7.0.1
-  "@pnpm/builder.policy": 3.0.0
+  "@pnpm/builder.policy": 3.0.1
   "@pnpm/byline": ^1.0.0
   "@pnpm/colorize-semver-diff": ^1.0.1
-  "@pnpm/config.env-replace": 3.0.0
+  "@pnpm/config.env-replace": 3.0.1
   "@pnpm/exec": ^2.0.0
   "@pnpm/fs.packlist": 2.0.0
-  "@pnpm/log.group": 3.0.0
+  "@pnpm/log.group": 3.0.1
   "@pnpm/meta-updater": 2.0.5
-  "@pnpm/network.agent": ^2.0.1
+  "@pnpm/network.agent": ^2.0.2
   "@pnpm/nopt": ^0.2.1
   "@pnpm/npm-conf": 3.0.0
   "@pnpm/npm-lifecycle": ^1000.0.2
   "@pnpm/npm-package-arg": ^1.0.0
-  "@pnpm/os.env.path-extender": ^2.0.1
+  "@pnpm/os.env.path-extender": ^2.0.2
   "@pnpm/patch-package": 0.0.1
-  "@pnpm/registry-mock": 4.0.0
+  "@pnpm/registry-mock": 4.1.0
   "@pnpm/semver-diff": ^1.1.0
   "@pnpm/tabtab": ^0.5.4
-  "@pnpm/util.lex-comparator": 3.0.0
+  "@pnpm/util.lex-comparator": 3.0.1
   "@reflink/reflink": 0.1.18
   "@rushstack/worker-pool": 0.4.9
   "@types/adm-zip": ^0.5.7
@@ -118,7 +134,7 @@ catalog:
   better-path-resolve: 1.0.0
   bin-links: ^4.0.4
   bole: ^5.0.17
-  boxen: ^5.1.2
+  boxen: npm:@zkochan/boxen@5.1.2
   camelcase-keys: ^6.2.2
   camelcase: ^6.3.0
   can-link: ^2.0.0
@@ -140,6 +156,7 @@ catalog:
   enquirer: ^2.4.1
   esbuild: ^0.25.0
   escape-string-regexp: ^4.0.0
+  eslint: ^8.57.1
   execa: npm:safe-execa@0.1.2
   exists-link: 2.0.0
   fast-deep-equal: ^3.1.3
@@ -237,7 +254,7 @@ catalog:
   string-length: ^4.0.2
   strip-bom: ^4.0.0
   strip-comments-strings: 1.2.0
-  symlink-dir: ^6.0.4
+  symlink-dir: ^6.0.5
   tar-stream: ^2.2.0
   tar: ^6.2.1
   tempy: ^1.0.1

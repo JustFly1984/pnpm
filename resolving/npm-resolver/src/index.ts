@@ -15,6 +15,7 @@ import {
   type WorkspacePackage,
   type WorkspacePackages,
   type WorkspacePackagesByVersion,
+  type WorkspaceResolveResult,
 } from '@pnpm/resolver-base'
 import { LRUCache } from 'lru-cache'
 import normalize from 'normalize-path'
@@ -38,11 +39,11 @@ import { workspacePrefToNpm } from './workspacePrefToNpm'
 
 export class NoMatchingVersionError extends PnpmError {
   public readonly packageMeta: PackageMeta
-  constructor (opts: { wantedDependency: WantedDependency, packageMeta: PackageMeta }) {
+  constructor (opts: { wantedDependency: WantedDependency, packageMeta: PackageMeta, registry: string }) {
     const dep = opts.wantedDependency.alias
       ? `${opts.wantedDependency.alias}@${opts.wantedDependency.pref ?? ''}`
       : opts.wantedDependency.pref!
-    super('NO_MATCHING_VERSION', `No matching version found for ${dep}`)
+    super('NO_MATCHING_VERSION', `No matching version found for ${dep} while fetching it from ${opts.registry}`)
     this.packageMeta = opts.packageMeta
   }
 }
@@ -198,7 +199,7 @@ async function resolveNpm (
         // ignore
       }
     }
-    throw new NoMatchingVersionError({ wantedDependency, packageMeta: meta })
+    throw new NoMatchingVersionError({ wantedDependency, packageMeta: meta, registry: opts.registry })
   }
 
   const workspacePkgsMatchingName = workspacePackages?.get(pickedPackage.name)
@@ -253,7 +254,7 @@ function tryResolveFromWorkspace (
     workspacePackages?: WorkspacePackages
     injectWorkspacePackages?: boolean
   }
-): ResolveResult | null {
+): WorkspaceResolveResult | null {
   if (!wantedDependency.pref?.startsWith('workspace:')) {
     return null
   }
@@ -284,7 +285,7 @@ function tryResolveFromWorkspacePackages (
     projectDir: string
     lockfileDir?: string
   }
-): ResolveResult {
+): WorkspaceResolveResult {
   const workspacePkgsMatchingName = workspacePackages.get(spec.name)
   if (!workspacePkgsMatchingName) {
     throw new PnpmError(
@@ -331,7 +332,7 @@ function resolveFromLocalPackage (
     projectDir: string
     lockfileDir?: string
   }
-): ResolveResult {
+): WorkspaceResolveResult {
   let id!: PkgResolutionId
   let directory!: string
   const localPackageDir = resolveLocalPackageDir(localPackage)
@@ -350,7 +351,7 @@ function resolveFromLocalPackage (
       directory,
       type: 'directory',
     },
-    resolvedVia: 'local-filesystem',
+    resolvedVia: 'workspace',
   }
 }
 

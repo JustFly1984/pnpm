@@ -1,5 +1,65 @@
 # @pnpm/plugin-commands-deploy
 
+## 1001.1.15
+
+### Patch Changes
+
+- Updated dependencies [e5b7bf4]
+  - @pnpm/plugin-commands-installation@1002.2.1
+
+## 1001.1.14
+
+### Patch Changes
+
+- cda1c43: An internal refactor was made to the `deploy` command to better handle a change in `plugin-commands-installation` when `node-linker=hoisted`. There are no behavior changes expected with this refactor.
+- Updated dependencies [b4efd0e]
+- Updated dependencies [6e4459c]
+- Updated dependencies [cda1c43]
+  - @pnpm/plugin-commands-installation@1002.2.0
+  - @pnpm/config@1002.5.3
+  - @pnpm/cli-utils@1000.0.16
+
+## 1001.1.13
+
+### Patch Changes
+
+- @pnpm/cli-utils@1000.0.15
+- @pnpm/plugin-commands-installation@1002.1.2
+- @pnpm/dependency-path@1000.0.5
+- @pnpm/config@1002.5.2
+- @pnpm/lockfile.fs@1001.1.6
+
+## 1001.1.12
+
+### Patch Changes
+
+- Updated dependencies [c3aa4d8]
+  - @pnpm/config@1002.5.1
+  - @pnpm/cli-utils@1000.0.14
+  - @pnpm/plugin-commands-installation@1002.1.1
+
+## 1001.1.11
+
+### Patch Changes
+
+- f5940cc: `pnpm deploy` should not remove fields from the deployed package's `package.json` file [#9215](https://github.com/pnpm/pnpm/issues/9215).
+- a5e4965: Fix `pnpm deploy` creating a `package.json` without the `imports` and `license` field [#9193](https://github.com/pnpm/pnpm/issues/9193).
+- e4eeafd: Fix a bug causing entries in the `catalogs` section of the `pnpm-lock.yaml` file to be removed when `dedupe-peer-dependents=false` on a filtered install. [#9112](https://github.com/pnpm/pnpm/issues/9112)
+- Updated dependencies [6a59366]
+- Updated dependencies [a5e4965]
+- Updated dependencies [d9d7607]
+- Updated dependencies [d965748]
+- Updated dependencies [e4eeafd]
+  - @pnpm/plugin-commands-installation@1002.1.0
+  - @pnpm/types@1000.2.1
+  - @pnpm/config@1002.5.0
+  - @pnpm/dependency-path@1000.0.4
+  - @pnpm/cli-utils@1000.0.13
+  - @pnpm/directory-fetcher@1000.1.1
+  - @pnpm/lockfile.fs@1001.1.5
+  - @pnpm/lockfile.types@1001.0.4
+  - @pnpm/fs.indexed-pkg-importer@1000.1.1
+
 ## 1001.1.10
 
 ### Patch Changes

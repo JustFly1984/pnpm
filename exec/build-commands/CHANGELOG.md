@@ -1,5 +1,47 @@
 # @pnpm/exec.build-commands
 
+## 1001.0.6
+
+### Patch Changes
+
+- @pnpm/plugin-commands-rebuild@1002.0.6
+
+## 1001.0.5
+
+### Patch Changes
+
+- Updated dependencies [6e4459c]
+  - @pnpm/config@1002.5.3
+  - @pnpm/plugin-commands-rebuild@1002.0.5
+
+## 1001.0.4
+
+### Patch Changes
+
+- @pnpm/plugin-commands-rebuild@1002.0.4
+- @pnpm/config@1002.5.2
+
+## 1001.0.3
+
+### Patch Changes
+
+- 1e6ae3e: When executing the `approve-builds` command, if package.json contains `onlyBuiltDependencies` or `ignoredBuiltDependencies`, the selected dependency package will continue to be written into `package.json`.
+- Updated dependencies [c3aa4d8]
+  - @pnpm/config@1002.5.1
+  - @pnpm/plugin-commands-rebuild@1002.0.3
+
+## 1001.0.2
+
+### Patch Changes
+
+- 8b3cfe2: fix: don't abort approve-builds command or err when manifest doesn't exist [#9198](https://github.com/pnpm/pnpm/pull/9198)
+- Updated dependencies [d965748]
+  - @pnpm/config@1002.5.0
+  - @pnpm/plugin-commands-rebuild@1002.0.2
+  - @pnpm/modules-yaml@1000.1.4
+  - @pnpm/read-project-manifest@1000.0.7
+  - @pnpm/workspace.manifest-writer@1000.0.2
+
 ## 1001.0.1
 
 ### Patch Changes

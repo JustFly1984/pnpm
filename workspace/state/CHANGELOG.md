@@ -1,5 +1,40 @@
 # @pnpm/workspace.state
 
+## 1001.1.12
+
+### Patch Changes
+
+- 9904675: `@pnpm/logger` should be a peer dependency.
+
+## 1001.1.11
+
+### Patch Changes
+
+- Updated dependencies [6e4459c]
+  - @pnpm/config@1002.5.3
+
+## 1001.1.10
+
+### Patch Changes
+
+- @pnpm/config@1002.5.2
+
+## 1001.1.9
+
+### Patch Changes
+
+- Updated dependencies [c3aa4d8]
+  - @pnpm/config@1002.5.1
+
+## 1001.1.8
+
+### Patch Changes
+
+- Updated dependencies [a5e4965]
+- Updated dependencies [d965748]
+  - @pnpm/types@1000.2.1
+  - @pnpm/config@1002.5.0
+
 ## 1001.1.7
 
 ### Patch Changes

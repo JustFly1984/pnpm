@@ -1,5 +1,88 @@
 # @pnpm/plugin-commands-script-runners
 
+## 1000.2.6
+
+### Patch Changes
+
+- e5b7bf4: Fix `pnpm dlx` with `--allow-build` flag [#9263](https://github.com/pnpm/pnpm/issues/9263).
+- Updated dependencies [9904675]
+- Updated dependencies [e5b7bf4]
+- Updated dependencies [aec8c50]
+  - @pnpm/workspace.injected-deps-syncer@1000.0.2
+  - @pnpm/plugin-commands-installation@1002.2.1
+  - @pnpm/plugin-commands-env@1000.0.17
+  - @pnpm/deps.status@1002.0.6
+  - @pnpm/client@1000.0.11
+
+## 1000.2.5
+
+### Patch Changes
+
+- 57f989e: Add the missing `node-options` config to `recursive run` [#9180](https://github.com/pnpm/pnpm/issues/9180).
+- Updated dependencies [b4efd0e]
+- Updated dependencies [6e4459c]
+- Updated dependencies [cda1c43]
+  - @pnpm/plugin-commands-installation@1002.2.0
+  - @pnpm/config@1002.5.3
+  - @pnpm/cli-utils@1000.0.16
+  - @pnpm/deps.status@1002.0.5
+  - @pnpm/plugin-commands-env@1000.0.16
+
+## 1000.2.4
+
+### Patch Changes
+
+- Updated dependencies [0b0bcfa]
+  - @pnpm/exec.pnpm-cli-runner@1000.0.1
+  - @pnpm/cli-utils@1000.0.15
+  - @pnpm/crypto.hash@1000.1.1
+  - @pnpm/plugin-commands-env@1000.0.15
+  - @pnpm/plugin-commands-installation@1002.1.2
+  - @pnpm/deps.status@1002.0.4
+  - @pnpm/config@1002.5.2
+  - @pnpm/client@1000.0.10
+
+## 1000.2.3
+
+### Patch Changes
+
+- Updated dependencies [c3aa4d8]
+  - @pnpm/config@1002.5.1
+  - @pnpm/cli-utils@1000.0.14
+  - @pnpm/deps.status@1002.0.3
+  - @pnpm/plugin-commands-env@1000.0.14
+  - @pnpm/plugin-commands-installation@1002.1.1
+  - @pnpm/client@1000.0.9
+
+## 1000.2.2
+
+### Patch Changes
+
+- 6a59366: Pass onlyBuiltDependencies as a direct option to add.handler.
+- Updated dependencies [b8b0c68]
+- Updated dependencies [daf47e9]
+- Updated dependencies [6a59366]
+- Updated dependencies [a5e4965]
+- Updated dependencies [d9d7607]
+- Updated dependencies [d965748]
+- Updated dependencies [e4eeafd]
+  - @pnpm/package-bins@1000.0.4
+  - @pnpm/crypto.hash@1000.1.0
+  - @pnpm/plugin-commands-installation@1002.1.0
+  - @pnpm/types@1000.2.1
+  - @pnpm/config@1002.5.0
+  - @pnpm/deps.status@1002.0.2
+  - @pnpm/cli-utils@1000.0.13
+  - @pnpm/pick-registry-for-package@1000.0.4
+  - @pnpm/plugin-commands-env@1000.0.13
+  - @pnpm/lifecycle@1001.0.7
+  - @pnpm/core-loggers@1000.1.4
+  - @pnpm/client@1000.0.8
+  - @pnpm/read-package-json@1000.0.5
+  - @pnpm/read-project-manifest@1000.0.7
+  - @pnpm/sort-packages@1000.0.4
+  - @pnpm/workspace.injected-deps-syncer@1000.0.1
+
 ## 1000.2.1
 
 ### Patch Changes

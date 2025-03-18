@@ -1,5 +1,29 @@
 # @pnpm/worker
 
+## 1000.1.0
+
+### Minor Changes
+
+- 2e05789: The max amount of workers running for linking packages from the store has been reduced to 4 to achieve optimal results [#9286](https://github.com/pnpm/pnpm/issues/9286). The workers are performing many file system operations, so increasing the number of CPUs doesn't help performance after some point.
+
+## 1000.0.8
+
+### Patch Changes
+
+- Updated dependencies [58d8597]
+  - @pnpm/crypto.polyfill@1000.1.0
+
+## 1000.0.7
+
+### Patch Changes
+
+- @pnpm/exec.pkg-requires-build@1000.0.4
+- @pnpm/symlink-dependency@1000.0.5
+- @pnpm/store.cafs@1000.0.6
+- @pnpm/cafs-types@1000.0.0
+- @pnpm/fs.hard-link-dir@1000.0.0
+- @pnpm/create-cafs-store@1000.0.7
+
 ## 1000.0.6
 
 ### Patch Changes

@@ -1,5 +1,62 @@
 # @pnpm/headless
 
+## 1002.0.0
+
+### Patch Changes
+
+- Updated dependencies [2e05789]
+  - @pnpm/worker@1000.1.0
+  - @pnpm/build-modules@1000.2.9
+  - @pnpm/package-requester@1002.0.0
+
+## 1001.2.5
+
+### Patch Changes
+
+- @pnpm/worker@1000.0.8
+- @pnpm/dependency-path@1000.0.5
+- @pnpm/build-modules@1000.2.8
+- @pnpm/package-requester@1001.0.4
+- @pnpm/deps.graph-builder@1001.0.9
+- @pnpm/lockfile.filtering@1001.0.6
+- @pnpm/lockfile.fs@1001.1.6
+- @pnpm/lockfile-to-pnp@1001.0.7
+- @pnpm/lockfile.utils@1001.0.5
+- @pnpm/calc-dep-state@1001.0.7
+- @pnpm/hoist@1001.0.8
+- @pnpm/modules-cleaner@1001.0.7
+- @pnpm/real-hoist@1001.0.5
+
+## 1001.2.4
+
+### Patch Changes
+
+- Updated dependencies [a5e4965]
+  - @pnpm/types@1000.2.1
+  - @pnpm/link-bins@1000.0.8
+  - @pnpm/dependency-path@1000.0.4
+  - @pnpm/package-is-installable@1000.0.6
+  - @pnpm/deps.graph-builder@1001.0.8
+  - @pnpm/build-modules@1000.2.7
+  - @pnpm/lifecycle@1001.0.7
+  - @pnpm/symlink-dependency@1000.0.5
+  - @pnpm/lockfile.filtering@1001.0.5
+  - @pnpm/lockfile.fs@1001.1.5
+  - @pnpm/lockfile-to-pnp@1001.0.6
+  - @pnpm/lockfile.utils@1001.0.4
+  - @pnpm/calc-dep-state@1001.0.6
+  - @pnpm/core-loggers@1000.1.4
+  - @pnpm/hoist@1001.0.7
+  - @pnpm/modules-cleaner@1001.0.6
+  - @pnpm/modules-yaml@1000.1.4
+  - @pnpm/package-requester@1001.0.3
+  - @pnpm/real-hoist@1001.0.4
+  - @pnpm/read-package-json@1000.0.5
+  - @pnpm/read-project-manifest@1000.0.7
+  - @pnpm/store-controller-types@1001.0.3
+  - @pnpm/worker@1000.0.7
+  - @pnpm/pkg-manager.direct-dep-linker@1000.0.5
+
 ## 1001.2.3
 
 ### Patch Changes
